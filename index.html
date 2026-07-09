@@ -392,15 +392,15 @@
   function encPath(p){return p.split("/").map(function(s){return encodeURIComponent(s);}).join("/");}
   /* audio:"" — später Audiodateien eintragen, z.B. audio:"Audio/harvest-time.mp3" */
   var ALBUMS=[
-    {t:"Quite A Tale To Tell",a:"ChamberJazz",c:"chamberjazz",img:"CD Cover/1.-ChamberJazz-Quite-A-Tale-To-Tell-2-1.webp",vinyl:"CD Cover/Vinyl/Vinyl Quite a Tale to tell.png",audio:""},
-    {t:"Lichterschatten",a:"ChamberJazz",c:"chamberjazz",img:"CD Cover/2.-ChamberJazz-Lichterschatten-1.webp",vinyl:"CD Cover/Vinyl/Vinyl Lichterschatten.png",audio:""},
-    {t:"Weihnachten",a:"ChamberJazz",c:"chamberjazz",img:"CD Cover/3.-ChamberJazz-Weihnachten-1-e1680772770585.webp",vinyl:"CD Cover/Vinyl/Vinyl Weihnachten.png",audio:""},
-    {t:"Mobile",a:"ChamberJazz · feat. Fritz Roppel",c:"chamberjazz",img:"CD Cover/4.-ChamberJazz-Mobile-1-1.webp",vinyl:"CD Cover/Vinyl/Vinyl Imobile.png",audio:""},
-    {t:"Simple Doesn't Mean Easy",a:"Georg Dybowski · Solo",c:"solo",img:"CD Cover/5.-Georg-Dybowski-Simple-Doesnt-mean-Easy.webp",vinyl:"CD Cover/Vinyl/Vinyl Simple doesn´t mean easy.png",audio:""},
-    {t:"Once And Again",a:"Dybowski / Reimann",c:"duo",img:"CD Cover/6.-Dybowski-Reimann-Once-And-Again-1.webp",vinyl:"",audio:""},
-    {t:"Harvest Time",a:"Dybowski / Mangano",c:"duo",img:"CD Cover/7.-Dybowski-Mangano-Harvesttime-1.webp",vinyl:"CD Cover/Vinyl/Vinyl Harvest Time.png",audio:""},
-    {t:"Sauber",a:"Georg Dybowski",c:"solo",img:"CD Cover/8.-SAUBER-noch-2-scaled.webp",vinyl:"CD Cover/Vinyl/Vinyl Sauber.png",audio:""},
-    {t:"Space Between Notes",a:"Dybowski / Roppel",c:"duo",img:"CD Cover/9.-Dybowski-Roppel-Space-Between-Notes-1-3.webp",vinyl:"CD Cover/Vinyl/Vinyl Space between Notes.png",audio:""}
+    {t:"Quite A Tale To Tell",a:"ChamberJazz",c:"chamberjazz",img:"covers/quite-a-tale-to-tell.webp",vinyl:"vinyls/quite-a-tale-to-tell.png",audio:""},
+    {t:"Lichterschatten",a:"ChamberJazz",c:"chamberjazz",img:"covers/lichterschatten.webp",vinyl:"vinyls/lichterschatten.png",audio:""},
+    {t:"Weihnachten",a:"ChamberJazz",c:"chamberjazz",img:"covers/weihnachten.webp",vinyl:"vinyls/weihnachten.png",audio:""},
+    {t:"Mobile",a:"ChamberJazz · feat. Fritz Roppel",c:"chamberjazz",img:"covers/mobile.webp",vinyl:"vinyls/mobile.png",audio:""},
+    {t:"Simple Doesn't Mean Easy",a:"Georg Dybowski · Solo",c:"solo",img:"covers/simple-doesnt-mean-easy.webp",vinyl:"vinyls/simple-doesnt-mean-easy.png",audio:""},
+    {t:"Once And Again",a:"Dybowski / Reimann",c:"duo",img:"covers/once-and-again.webp",vinyl:"",audio:""},
+    {t:"Harvest Time",a:"Dybowski / Mangano",c:"duo",img:"covers/harvest-time.webp",vinyl:"vinyls/harvest-time.png",audio:""},
+    {t:"Sauber",a:"Georg Dybowski",c:"solo",img:"covers/sauber.webp",vinyl:"vinyls/sauber.png",audio:""},
+    {t:"Space Between Notes",a:"Dybowski / Roppel",c:"duo",img:"covers/space-between-notes.webp",vinyl:"vinyls/space-between-notes.png",audio:""}
   ];
   var CATS=[["all","Alle"],["chamberjazz","ChamberJazz"],["solo","Solo"],["duo","Duo"]];
   var filter="all",list=[],focusIdx=-1,dwellT=null,SP=112;
